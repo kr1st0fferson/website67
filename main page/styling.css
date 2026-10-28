@@ -24,9 +24,9 @@ body {
 
 /* "about me, my art, commissions" */
 .buttons {
-    margin-left: 30vh;
+    margin-top: 3vh;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 4r 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px;
     justify-content: center;
     align-items: center;
@@ -38,6 +38,7 @@ body {
     "box-3"
     "box-4";
 }
+
 
 #persona {
     display: grid;
