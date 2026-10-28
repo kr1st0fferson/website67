@@ -1,8 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: kristoffersons_font;
-    
-  
 }
 
 @font-face {
@@ -10,49 +8,59 @@ body {
     src: url(Updatedkristoffersonsfont-Regular.ttf);
 }
 
-.blinkies {
-   display: flex;
-   flex-direction: row;
-}
-
-.blinkies2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(1fr, 1fr, 1fr);
-    grid-template-rows: repeat(1fr, 1fr, 1fr);
-    font-size: 80px;
-    color: rgb(98, 98, 249)
-}
-
-
-
-.header {
-    font-size: 30px;
-    color: blue;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
-
-}
-
-
+/* footer row 1*/
 .blinkies {
     display: flex;
     justify-content: center;
     margin-top: 10vh;
 }
 
-.swag {
+/* footer row 2 */
+.blinkies2 {
     display: flex;
-    justify-content: flex-start;
-    margin-left: 25vh;
+    flex-direction: row-reverse;
+    justify-content: center;
 }
+
+/* "about me, my art, commissions" */
+.buttons {
+    margin-left: 30vh;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    justify-content: center;
+    align-items: center;
+
+
+    grid-template-areas: 
+    "box-1"
+    "box-2"
+    "box-3"
+    "box-4";
+}
+
+#persona {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/5;
+}
+
+/* "about me, my art, commissions" ka style  */
+.buttons_child {
+    font-size: 80px;
+    color: rgb(98, 98, 249);
+    text-align: center;
+}
+
+/* "kristofferson's blog" */
+.header {
+    font-size: 30px;
+    color: blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 
 .sparks {
     margin-top: 2vh;
@@ -62,21 +70,14 @@ body {
     margin-top: 2vh;
 }
 
-.guy {
-    display: flex;
-    justify-content: center;
-  
-}
-
-
 /*got permission to copy paste this. the code is not mine*/
+
 ::selection {
 /* Change highlight background color */
 background: #5146ee;
 /* Change highlight text color */
 color: #f296ec ;
 }
-
 
 /*got persmission to copy paste this. the code is not mine*/
 a {text-decoration: none; color: rgb(98, 98, 249); }
