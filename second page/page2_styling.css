@@ -1,26 +1,35 @@
 body {
-    background-color: aliceblue;
-    
+    background-color: rgb(255, 255, 255);
+    font-family: kristoffersons_font;
+}
+
+@font-face {
+    font-family: kristoffersons_font;
+    src: url(/Users/ziggystardust/workspace/website/Updatedkristoffersonsfont-Regular.ttf);
 }
 
 .header {
     display: flex;
     justify-content: center;
+    color: rgb(250, 69, 99);
+    font-size: 30px;
+    margin-bottom: 10
 }
 
 .blinkies {
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 #bullshit {
     display: flex;
     justify-content: center;
+    color:rgb(220, 38, 18)
 }
 
 .points {
     display: flex;
-    
     flex-direction: column;
 }
 
@@ -28,13 +37,25 @@ body {
     text-align: center;
 }
 
-.favorites {
+#fav_heading {
     display: flex;
-    flex-direction: column
-    /* grid-template-columns: 1fr 1fr 1fr; */
-   
-    /* grid-template-areas:
-    "heading"
-    "box1"
-    "box2 box2"; */
+    justify-content: center ;
+
+}
+
+.fav_child {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
