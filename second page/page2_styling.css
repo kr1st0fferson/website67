@@ -1,3 +1,40 @@
 body {
     background-color: aliceblue;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.blinkies {
+    display: flex;
+    justify-content: center;
+}
+
+#bullshit {
+    display: flex;
+    justify-content: center;
+}
+
+.points {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.points_child {
+    text-align: center;
+}
+
+.favorites {
+    display: flex;
+    flex-direction: column
+    /* grid-template-columns: 1fr 1fr 1fr; */
+   
+    /* grid-template-areas:
+    "heading"
+    "box1"
+    "box2 box2"; */
 }
