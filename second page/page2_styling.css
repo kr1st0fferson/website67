@@ -4,6 +4,7 @@ body {
     font-size: 30px;
 }
 
+
 ::selection {
     background: #5146ee;
     color: #f296ec;
@@ -17,63 +18,30 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    color: rgb(232, 33, 56);
+    color: rgb(224, 7, 33);
     font-size: 30px;
     
 }
 
+/* row 1 of blinkies */
 .blinkies {
     display: flex;
     justify-content: center;
 }
 
+/* row 2 of blinkies */
 .blinkies2 {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
 }
 
+/* links */
 a {
     color: blue;
     text-decoration: none;
 }
 
-.nav_child:hover{
-    color: #ffbad2;
-}
-
-#bullshit {
-    display: flex;
-    justify-content: center;
-    color:rgb(56, 117, 239);
-    font-size: 20px;
-}
-
-.points {
-    display: flex;
-    flex-direction: column;
-    color: rgb(0, 56, 199);
-}
-
-.points_child {
-    text-align: center;
-}
-
-#fav_heading {
-    display: flex;
-    justify-content: center ;
-    color:rgb(232, 33, 56);
-
-}
-
-#color {
-    color: rgb(88, 88, 234);
-}
-
-.fav_child {
-    display: flex;
-    justify-content: center;
-}
 
 .nav_bar {
     display: flex;
@@ -81,6 +49,58 @@ a {
     gap: 2em;
     justify-content: center;
 }
+
+/* about me, commissions */
+.nav_child:hover{
+    color: #ee4689;
+}
+
+/* "an artist who would rather..." */
+#bullshit {
+    display: flex;
+    justify-content: center;
+    color:rgb(31, 4, 186);
+    font-size: 20px;
+}
+
+#neocities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 3;
+
+
+}
+
+
+/* she/her, etc */
+.points {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 92, 89);
+    font-size: 25px;
+}
+
+.points_child {
+    text-align: center;
+}
+
+/* "favorites :3" */
+#fav_heading {
+    display: flex;
+    justify-content: center ;
+    color:rgb(224, 7, 33);
+}
+
+.fav_child {
+    display: flex;
+    justify-content: center;
+}
+
+/* color: blue(y) */
+#color {
+    color: rgb(88, 88, 234);
+}
+
 
 .footer {
     display: flex;
