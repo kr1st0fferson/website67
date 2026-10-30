@@ -1,6 +1,12 @@
 body {
     background-color: rgb(255, 255, 255);
     font-family: kristoffersons_font;
+    font-size: 30px;
+}
+
+::selection {
+    background: #5146ee;
+    color: #f296ec;
 }
 
 @font-face {
@@ -11,26 +17,42 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    color: rgb(250, 69, 99);
+    color: rgb(232, 33, 56);
     font-size: 30px;
-    margin-bottom: 10
+    
 }
 
 .blinkies {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+}
+
+.blinkies2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav_child:hover{
+    color: #ffbad2;
 }
 
 #bullshit {
     display: flex;
     justify-content: center;
-    color:rgb(220, 38, 18)
+    color:rgb(56, 117, 239);
+    font-size: 20px;
 }
 
 .points {
     display: flex;
     flex-direction: column;
+    color: rgb(0, 56, 199);
 }
 
 .points_child {
@@ -40,7 +62,12 @@ body {
 #fav_heading {
     display: flex;
     justify-content: center ;
+    color:rgb(232, 33, 56);
 
+}
+
+#color {
+    color: rgb(88, 88, 234);
 }
 
 .fav_child {
