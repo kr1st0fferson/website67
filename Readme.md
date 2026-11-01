@@ -13,6 +13,9 @@ spent a long time trying to figure out css grid. im still trying to wrap my head
 go to https://kritsofferson.neocities.org/ 
 click "ABOUT ME!!" 
 
+## how the main page looks like:
+<img src="second page/Screen Shot 2026-11-01 at 2.39.35 PM.png" alt="main page of my website">
+
 ## how the page currently looks like: 
 <img src="second page/Screen Shot 2026-11-01 at 7.27.56 PM.png" alt="page 2 of my website"> 
 
