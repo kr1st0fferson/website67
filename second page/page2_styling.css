@@ -93,15 +93,22 @@ a {
     font-size: 50px;
 }
 
-.fav_child {
-    display: flex;
-    justify-content: center;
+.item1 { grid-area: colors;}
+.item2 { grid-area: bluey;}
+.item3 { grid-area: animals;}
+.item4 { grid-area: hobbies}
+
+/* text under "favorites :3" */
+.fav {
+    display: grid;
+    
+
+    grid-template-areas: 
+    'colors bluey bluey'
+    'animals'
+    'hobbies';
 }
 
-/* color: blue(y) */
-#color {
-    color: rgb(88, 88, 234);
-}
 
 
 .footer {
@@ -109,20 +116,5 @@ a {
     justify-content: center;
 }
 
-.bluey_box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
-#bluey_drawing {
-    grid-column: 3;
-}
 
-.box {
-    display: flex;
-    margin-left: 10vh;
-}
-
-.box_child {
-    color: rgb(31, 58, 228);
-}
