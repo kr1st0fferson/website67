@@ -14,7 +14,7 @@ go to https://kritsofferson.neocities.org/
 click "ABOUT ME!!" 
 
 ## how the page currently looks like: 
-![page 2 of my website](/Users/ziggystardust/workspace/website/second page/Screen Shot 2026-11-01 at 7.27.56 PM.png)
+<img src="/Users/ziggystardust/workspace/website/second page/Screen Shot 2026-11-01 at 7.27.56 PM.png" alt="page 2 of my website"> 
 
 ## note:
 the website is only meant to be viewed on a laptop. this website has not been built for mobile!! sorry
