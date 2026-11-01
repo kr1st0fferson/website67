@@ -17,7 +17,7 @@ then click "ABOUT ME!!"
 <img src="second page/Screen Shot 2026-11-01 at 2.39.35 PM.png" alt="main page of my website">
 
 ## how the second page currently looks like: 
-<img src="/Users/ziggystardust/workspace/website/Screen Shot 2026-11-01 at 9.47.15 PM.png" alt="page 2 of my website"> 
+<img src="Screen Shot 2026-11-01 at 9.47.15 PM.png" alt="page 2 of my website"> 
 
 ## note:
 the website is only meant to be viewed on a laptop. this website has not been built for mobile!! sorry
