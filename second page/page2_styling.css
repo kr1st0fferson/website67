@@ -118,3 +118,11 @@ a {
     grid-column: 3;
 }
 
+.box {
+    display: flex;
+    margin-left: 10vh;
+}
+
+.box_child {
+    color: rgb(95, 116, 255);
+}
