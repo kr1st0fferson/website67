@@ -21,6 +21,7 @@ body {
     color: rgb(224, 7, 33);
     font-size: 30px;
     
+    
 }
 
 /* row 1 of blinkies */
@@ -63,12 +64,11 @@ a {
     font-size: 20px;
 }
 
-#neocities {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 3;
-
-
+.neocities {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
 }
 
 
@@ -76,7 +76,7 @@ a {
 .points {
     display: flex;
     flex-direction: column;
-    color: rgb(255, 92, 89);
+    color: rgb(99, 0, 185);
     font-size: 25px;
 }
 
@@ -86,9 +86,11 @@ a {
 
 /* "favorites :3" */
 #fav_heading {
+    margin-top: 1em;
     display: flex;
     justify-content: center ;
     color:rgb(224, 7, 33);
+    font-size: 50px;
 }
 
 .fav_child {
@@ -106,3 +108,13 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.bluey_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#bluey_drawing {
+    grid-column: 3;
+}
+
