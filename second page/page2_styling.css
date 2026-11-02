@@ -112,6 +112,32 @@ a {
     justify-content: right;
 }
 
+#sin {
+    display: grid;
+    align-self:first baseline;
+    justify-items: center;
+}
+
+#ai {
+    display: grid;
+    justify-items: center;
+    margin-top: 9vh;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.little_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px ;
+}
+
+.littleb_child{
+    display: grid;
+    grid-column: 4;
+    justify-self: center;
+}
+
 /* "favorites :3" */
 #fav_heading {
     margin-top: 1em;
