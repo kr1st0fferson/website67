@@ -76,7 +76,7 @@ a {
 .points {
     display: flex;
     flex-direction: column;
-    color: rgb(99, 0, 185);
+    color: rgb(84, 0, 158);
     font-size: 25px;
 }
 
@@ -93,21 +93,15 @@ a {
     font-size: 50px;
 }
 
-.item1 { grid-area: colors;}
-.item2 { grid-area: bluey;}
-.item3 { grid-area: animals;}
-.item4 { grid-area: hobbies}
-
-/* text under "favorites :3" */
-.fav {
+.favorites {
+    color: rgb(100, 100, 255);
     display: grid;
+    grid-template-columns: 200px 400px 600px;
+    justify-content: center;
+    text-align: center;
     
-
-    grid-template-areas: 
-    'colors bluey bluey'
-    'animals'
-    'hobbies';
 }
+
 
 
 
