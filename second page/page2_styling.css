@@ -11,6 +11,11 @@ body {
 }
 
 @font-face {
+    font-family: handwriting;
+    src: url(/Users/ziggystardust/workspace/website/updated_handrwriting.ttf);
+}
+
+@font-face {
     font-family: kristoffersons_font;
     src: url(/Users/ziggystardust/workspace/website/Updatedkristoffersonsfont-Regular.ttf);
 }
@@ -20,8 +25,6 @@ body {
     justify-content: center;
     color: rgb(224, 7, 33);
     font-size: 30px;
-    
-    
 }
 
 /* row 1 of blinkies */
@@ -67,31 +70,46 @@ a {
 .neocities {
     display: flex;
     justify-content: center;
-    margin-top: 2vh;
-    margin-bottom: 4vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
 }
 
-
-/* she/her, etc */
-#points {
-    color: rgb(84, 0, 158);
-    font-size: 25px;
-    text-align: left;
-}
 
 .container {
+    font-family: handwriting;
     display: grid;
-    grid-template-columns: 300px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px;
-    justify-items: center;
     
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-.points_child {
+/* "hi! its so nice.." */
+#points {
+    color: rgb(84, 0, 158);
+    font-size: 30px;
     text-align: center;
-    margin: 5vh;
+    grid-column: 2/4;
+}
+
+#shadow {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 2;
+    justify-items: center;
+}
+
+#doggo {
+    display: grid;
+    justify-items: center;
+}
+
+#derp {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2;
+    justify-content: right;
 }
 
 /* "favorites :3" */
