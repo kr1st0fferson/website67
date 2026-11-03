@@ -158,11 +158,17 @@ a {
     
 }
 
+/* .bluey {
+    display: grid;
+    grid-template-columns: repeat(20, 40px);
+} */
+
+
 .container2 {
     font-family: handwriting;
     font-size: 40px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
     justify-items: center;
     color: rgb(85, 85, 253);
 }
