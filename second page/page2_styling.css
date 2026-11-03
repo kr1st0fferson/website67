@@ -158,20 +158,30 @@ a {
     
 }
 
-/* .bluey {
-    display: grid;
-    grid-template-columns: repeat(20, 40px);
-} */
+
 
 
 .container2 {
     font-family: handwriting;
     font-size: 40px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 2fr 1fr;
     justify-items: center;
     color: rgb(85, 85, 253);
 }
+
+.container2_baby{
+    display: grid;
+    grid-template-columns: 80px 100px 80px;
+    /* grid-template-columns: 50px 50px 50px 50px 50px; */
+    grid-template-rows: 40px 40px;
+}
+
+#bluey {
+    width: 35px;
+    justify-items: center;
+}
+
 
 
 .footer {
