@@ -161,7 +161,7 @@ a {
     font-size: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 40px;
+    grid-template-rows: 40px 40px;
     justify-items: center;
     color: rgb(85, 85, 253);
 }
@@ -177,6 +177,9 @@ a {
     justify-items: center;
 }
 
+#food {
+  
+}
 
 
 .footer {
