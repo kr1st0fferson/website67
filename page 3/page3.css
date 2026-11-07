@@ -1,8 +1,10 @@
-.body {
+body {
     font-family: handwriting;
+    font-size: 25px;
 }
 
 @font-face {
-    font-family: handwriting;
-    src: url(handwriting.tff);
+    font-family: 'handwriting';
+    src: url('handwriting.tff');
 }
+
