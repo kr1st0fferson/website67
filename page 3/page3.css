@@ -1,6 +1,7 @@
 body {
     font-family: handwriting;
     font-size: 25px;
+    display: grid;
 }
 
 @font-face {
@@ -8,3 +9,17 @@ body {
     src: url('handwriting.tff');
 }
 
+@font-face {
+    font-family: 'kristoffersons_font';
+    src: url('Updatedkristoffersonsfont-Regular.ttf');
+}
+
+.heading {
+    font-family: kristoffersons_font;
+}
+
+.side_box {
+    background-color: rgb(158, 193, 238);
+    
+    text-align: center;
+}
