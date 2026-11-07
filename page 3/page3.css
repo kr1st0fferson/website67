@@ -1,7 +1,9 @@
 body {
+    min-height: 100vh;
     font-family: handwriting;
     font-size: 25px;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 @font-face {
@@ -19,7 +21,9 @@ body {
 }
 
 .side_box {
-    background-color: rgb(158, 193, 238);
-    
+    display: grid;
+    width: 200px;
+    grid-template-columns: 200px;
     text-align: center;
+    background-color: rgb(96, 96, 252);
 }
