@@ -11,13 +11,13 @@ body {
 }
 
 @font-face {
-    font-family: handwriting;
-    src: url(C:\Users\Zynah\workspace\website\fonts\updated_handrwriting.ttf);
+    font-family: 'handwriting';
+    src: url('handwriting.ttf');
 }
 
 @font-face {
-    font-family: kristoffersons_font;
-    src: url(C:\Users\Zynah\workspace\website\fonts\Updatedkristoffersonsfont-Regular.ttf);
+    font-family: 'kristoffersons_font';
+    src: url('Updatedkristoffersonsfont-Regular.wof');
 }
 
 .header {
