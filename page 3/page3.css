@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    font-family: handwriting;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@font-face {
+    font-family: 'handwriting';
+    src: url('handwriting.tff');
+}
+
+@font-face {
+    font-family: 'kristoffersons_font';
+    src: url('Updatedkristoffersonsfont-Regular.ttf');
+}
+
+.heading {
+    font-family: kristoffersons_font;
+}
+
+.side_box {
+    display: grid;
+    width: 200px;
+    grid-template-columns: 200px;
+    text-align: center;
+    background-color: rgb(96, 96, 252);
+}

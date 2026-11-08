@@ -11,13 +11,13 @@ body {
 }
 
 @font-face {
-    font-family: handwriting;
-    src: url(/Users/ziggystardust/workspace/website/updated_handrwriting.ttf);
+    font-family: 'handwriting';
+    src: url('handwriting.ttf');
 }
 
 @font-face {
-    font-family: kristoffersons_font;
-    src: url(/Users/ziggystardust/workspace/website/Updatedkristoffersonsfont-Regular.ttf);
+    font-family: 'kristoffersons_font';
+    src: url('Updatedkristoffersonsfont-Regular.wof');
 }
 
 .header {
