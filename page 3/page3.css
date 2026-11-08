@@ -7,13 +7,13 @@ body {
 }
 
 @font-face {
-    font-family: 'handwriting';
-    src: url('handwriting.tff');
+    font-family: handwriting;
+    src: url(/Users/ziggystardust/workspace/website/handwriting.ttf);
 }
 
 @font-face {
-    font-family: 'kristoffersons_font';
-    src: url('Updatedkristoffersonsfont-Regular.ttf');
+    font-family: kristoffersons_font;
+    src: url(/Users/ziggystardust/workspace/website/Updatedkristoffersonsfont-Regular.ttf);
 }
 
 .heading {
