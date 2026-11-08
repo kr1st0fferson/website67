@@ -86,7 +86,7 @@ a {
 }
 
 /* "hi! its so nice.." */
-#points {
+#intro {
     color: rgb(84, 0, 158);
     font-size: 30px;
     text-align: center;
@@ -161,9 +161,18 @@ a {
     font-size: 40px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 40px 40px;
+    grid-template-rows: 40px 40px 40px 40px;
     justify-items: center;
     color: rgb(85, 85, 253);
+}
+
+#drink {
+    text-align: right;
+}
+
+#hobbies {
+    grid-column: 2;
+    justify-self: center;
 }
 
 .container2_baby{
@@ -177,9 +186,7 @@ a {
     justify-items: center;
 }
 
-#food {
-  
-}
+
 
 
 .footer {
