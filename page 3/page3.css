@@ -3,7 +3,9 @@ body {
     font-family: handwriting;
     font-size: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 1fr 1fr ;
+    grid-template-rows: 300px 300px ;
+    justify-items: center;
 }
 
 @font-face {
@@ -22,9 +24,10 @@ body {
 
 .side_box {
     display: grid;
-    width: 200px;
-    grid-template-columns: 200px;
-    grid-template-rows: 200px 100px 100px 100px;
+    /* width: 200px; */
+    /* grid-template-columns: 200px;
+    grid-template-rows: 200px; */
+    grid-template-rows: 1fr;
     text-align: center;
     background-color: rgb(157, 114, 72);
     justify-items: center;
