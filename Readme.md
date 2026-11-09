@@ -4,6 +4,7 @@
 
 a website where i can blog and post my art online!! itll be like a little portfolio :33
 just letting my creative juices flow and not holding back on making the website look nice and pretty 
+
 ---
 ## how to visit my website:
 
