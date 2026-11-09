@@ -15,8 +15,11 @@ but just in case, ill add the links to each of the webpages here.
 im really holding your hand and guiding you on this one... but its okay i forgive you. 
 
 [page 1/main page](https://kritsofferson.neocities.org/)
+
 [page 2/ABOUT ME](https://kritsofferson.neocities.org/second%20page/page2)
+
 [page 3/MY ART!!](https://kritsofferson.neocities.org/page%203/page3)
+
 [page 4/COMMISSIONS](https://kritsofferson.neocities.org/commissions/page4)
 
 ## how i made the website: 
