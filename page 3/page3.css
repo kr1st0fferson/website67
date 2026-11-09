@@ -26,4 +26,5 @@ body {
     grid-template-columns: 200px;
     text-align: center;
     background-color: rgb(96, 96, 252);
+    justify-items: center;
 }
