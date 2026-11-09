@@ -11,8 +11,18 @@ just letting my creative juices flow and not holding back on making the website 
 go to https://kritsofferson.neocities.org/ 
 
 from there, you'll be able to go to the four webpages that ive coded so far
+but just in case, ill add the links to each of the webpages here. 
+im really holding your hand and guiding you on this one... but its okay i forgive you. 
 
-note: 
+[page 1/main page](https://kritsofferson.neocities.org/)
+[page 2/ABOUT ME](https://kritsofferson.neocities.org/second%20page/page2)
+[page 3/MY ART!!](https://kritsofferson.neocities.org/page%203/page3)
+[page 4/COMMISSIONS](https://kritsofferson.neocities.org/commissions/page4)
+
+## how i made the website: 
+lots and lots of html tags and some css magic. some hopes and prayers too
+
+### note: 
 most of the pages are still wip!!
 
 
