@@ -1,23 +1,24 @@
-# cool website, pt.2 !! 
-
+# cool website!! 
+---
 ## about the project:
-an update of project from week 1 in terra. 
-
-recap: a website where i can blog and post my art online!! itll be like a little portfolio. 
-
-i made the second page of my websiteee. BUT ITS STILL INCOMPLETE!! 
-
-spent a long time trying to figure out css grid. im still trying to wrap my head around it, but i unfortunately couldnt get it done before the end of week 2 :( 
-
-## how to go to the second page of my website:
+a website where i can blog and post my art online!! itll be like a little portfolio :33
+just letting my creative juices flow and not holding back on making the website look nice and pretty 
+---
+## how to visit my website:
 go to https://kritsofferson.neocities.org/ 
-then click "ABOUT ME!!" 
+
+from there, you'll be able to go to the four webpages that ive coded so far
+
+note: most of the pages are still wip!! 
 
 ## how the main page looks like:
-<img src="second page/Screen Shot 2026-11-01 at 2.39.35 PM.png" alt="main page of my website">
+<img src="readme images/main.png" alt="main page"> 
 
-## how the second page currently looks like: 
-<img src="Screen Shot 2026-11-01 at 9.47.15 PM.png" alt="page 2 of my website"> 
+## how page 2 currently looks like: 
+<img src="readme images/2.png" alt="page 2 of my website"> 
 
-## note:
-the website is only meant to be viewed on a laptop. this website has not been built for mobile!! sorry
+## how page 3 currently looks like:
+<img src="readme images/3.png" alt="page 3 of my website">
+
+## IMPORTANT!:
+the website is only meant to be viewed on a laptop!! this website has not been built for mobile, sorry :/ 
