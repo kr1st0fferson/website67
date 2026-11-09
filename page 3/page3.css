@@ -34,3 +34,19 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+
+.intro {
+    grid-row: 2;
+}
+
+.nav {
+    grid-row: 3;
+}
+
+.years {
+    grid-row: 4;
+}
+
+.blinkies {
+    grid-row: 5;
+}
