@@ -19,7 +19,7 @@ body {
 .meet_heading {
     font-family: kristoffersons_font;
     font-size: 1.5em;
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: 1/3;
     justify-self: center;
     align-self: center;
@@ -105,16 +105,22 @@ nav :hover {
     align-self: center;
     justify-self: right;
     position: relative;
-    right: 1em;
     z-index: 11;
 }
 
-#girls {
+#notokay {
     grid-row: 3/4;
     grid-column: 2/3;
     position: relative;
-    left: -1em;
+    left: 0.5em;
     z-index: 12;
+}
+
+#girls {
+    grid-row: 3/5;
+    grid-column: 3;
+    position: relative;
+    left: 1em;
 }
 
 #bcs {
@@ -123,7 +129,7 @@ nav :hover {
     align-self: center;
     z-index: 14;
     position: relative;
-    left: 5em;
+    left: 7.3em;
 }
 
 #brba {
@@ -132,7 +138,7 @@ nav :hover {
    z-index: 13;
    justify-self: right ;
    position: relative;
-   right: 2.5em;
+   right: -0.5em;
    z-index: 15;
 }
 
@@ -140,6 +146,6 @@ nav :hover {
     grid-row: 2/4;
     align-self: center;
     grid-column: 4;
-    justify-self: right;
-    margin-right: 1em;
+    justify-self: center;
+    
 }
