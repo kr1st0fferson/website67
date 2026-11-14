@@ -172,3 +172,10 @@ nav :hover {
     left: 3em;
     z-index: -1
 }
+
+.blinkies {
+    grid-column: 4;
+    grid-row: 5/7;
+    position: relative;
+    left: 7em;
+}
