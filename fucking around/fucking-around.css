@@ -14,4 +14,14 @@ body {
 
 .meet_heading {
     font-family: kristoffersons_font;
+    font-size: 1.5em;
 }
+
+.nav {
+    font-size: 2em;
+}
+
+.food {
+    font-size: 2em;
+}
+
