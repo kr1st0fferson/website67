@@ -182,3 +182,87 @@ nav :hover {
 #not_ai img {
     transition: transform .2s;
 }
+
+#smiley_stamp {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 1em;
+    width: 70px;
+}
+
+#kitty_pc {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 6em;
+    align-self: start;
+    width: 70px;
+}
+
+#fire {
+    grid-column: 1;
+    grid-row: 3/5;
+    align-self: center;
+    margin-left: 2em;
+}
+
+#divider {
+    grid-column: 1/4;
+    grid-row: 9;
+    justify-self: center;
+    align-self: start;
+}
+
+#ilovedogs {
+    grid-column: 2;
+    grid-row: 6;
+    align-self: end;
+    justify-self: right;
+}
+
+#queer {
+    grid-row: 4;
+    grid-column: 4; 
+    justify-self: center ;
+    align-self: center;
+    margin-right: -4em;
+}
+
+#nyan {
+    grid-column: 1/2;
+    justify-self: right;
+    grid-row: 5;
+    position: relative;
+    right: 2em;
+}
+
+#derp {
+    width: 30px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+#blue {
+    grid-column: 3;
+    grid-row: 6;
+    z-index: 1000;
+    justify-self: center;
+    align-self: end;
+    position: relative;
+    right: 2em;
+}
+
+#urmom {
+    grid-column: 1/3;
+    grid-row: 6;
+    justify-self: center;
+    align-self: center;
+}
+
+#graphicd {
+    grid-column: 4;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
