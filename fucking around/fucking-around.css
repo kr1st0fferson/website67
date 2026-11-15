@@ -114,6 +114,11 @@ nav :hover {
     gap: 3px;
 }
 
+.movies {
+    display: flex;
+    grid-row: 7;
+}
+
 #jesse {
     grid-row: 2/4;
     align-self: center;
