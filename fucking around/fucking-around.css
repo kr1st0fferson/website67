@@ -2,7 +2,6 @@ body {
     font-family: handwriting;
     background-color: rgb(245, 224, 196);
     display: grid;
-    /* grid-template-columns: 300px 300px 300px 300px; */
     grid-template-columns: repeat(4, 330px);
     grid-template-rows: repeat(9, 80px);
 }
@@ -27,6 +26,12 @@ body {
     letter-spacing: 7px;
     color: rgb(68, 5, 5);
 
+}
+
+#text {
+    font-family: handwriting;
+    font-size: 30px;
+    text-align: center;
 }
 
 a {
@@ -100,57 +105,8 @@ nav :hover {
     gap: 0.5em;
     grid-column: 1/4;
     grid-row: 3/5;
-    
-    
 }
 
-/* #advtime {
-    position: sticky;
-    grid-column: 1;
-    grid-row: 3;
-    margin-left: 7em;
-}
-
-#mlp {
-    grid-column: 1;
-    grid-row: 3/5;
-    align-self: center;
-}
-
-#notokay {
-    grid-row: 3/4;
-    grid-column: 2/3;
-    position: relative;
-    left: 0.5em;
-    z-index: 12;
-}
-
-#girls {
-    grid-row: 3/5;
-    grid-column: 3;
-    position: relative;
-    left: 1em;
-}
-
-#bcs {
-    grid-column: 5;
-    grid-row: 3/5;
-    align-self: center;
-    z-index: 14;
-    position: relative;
-    left: 7.3em;
-}
-
-#brba {
-   grid-column: 2/3;
-   grid-row: 3/5;
-   z-index: 13;
-   justify-self: right ;
-   position: relative;
-   right: -0.5em;
-   z-index: 15;
-}
- */
 #jesse {
     grid-row: 2/4;
     align-self: center;
