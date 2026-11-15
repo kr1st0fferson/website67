@@ -2,7 +2,8 @@ body {
     font-family: handwriting;
     background-color: rgb(245, 224, 196);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 300px 300px 300px 300px; */
+    grid-template-columns: repeat(4, 330px);
     grid-template-rows: repeat(9, 80px);
 }
 
@@ -96,8 +97,11 @@ nav :hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 0.5em;
     grid-column: 1/4;
     grid-row: 3/5;
+    
+    
 }
 
 /* #advtime {
