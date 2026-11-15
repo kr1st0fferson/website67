@@ -1,0 +1,26 @@
+body {
+    font-family: handwriting;
+}
+
+@font-face {
+    font-family: kristoffersons_font;
+    src: url(/Users/ziggystardust/workspace/website/Updatedkristoffersonsfont-Regular.ttf);
+}
+
+@font-face {
+    font-family: handwriting;   
+    src: url(/Users/ziggystardust/workspace/website/handwriting.ttf);
+}
+
+.heading {
+    font-family: kristoffersons_font;
+    font-size: 2em;
+}
+
+nav :hover{
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}

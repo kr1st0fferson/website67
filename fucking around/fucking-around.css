@@ -39,7 +39,7 @@ a {
     color: black;
 }
 
-nav :hover {
+.button :hover {
     color: red;
 }
 
@@ -265,4 +265,11 @@ nav :hover {
     grid-row: 1;
     justify-self: center;
     align-self: center;
+}
+
+.button {
+    grid-row: 9;
+    grid-column: 2;
+    place-self: end;
+    font-size: 1em;
 }
