@@ -94,10 +94,6 @@ nav :hover {
     align-self: center;
 }
 
-.albums {
-    grid-row: 6;
-}
-
 .shows {
     display: flex;
     flex-direction: row;
@@ -117,6 +113,18 @@ nav :hover {
 .movies {
     display: flex;
     grid-row: 7;
+    grid-column: 1/2;
+    gap: 3px;
+    margin-left: 1em;
+}
+
+.albums {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    grid-row: 7/9;
+    grid-column: 2/4;
+    gap: 3px;
 }
 
 #jesse {
@@ -158,4 +166,19 @@ nav :hover {
     grid-row: 5/10;
     position: relative;
     left: 7em;
+}
+
+#not_ai img:hover {
+    transform: scale(1.5);
+}
+
+#not_ai {
+    grid-column: 1;
+    grid-row: 2/3;
+    align-self: end;
+    justify-self: center;
+}
+
+#not_ai img {
+    transition: transform .2s;
 }
