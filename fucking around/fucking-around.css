@@ -273,3 +273,8 @@ a {
     place-self: end;
     font-size: 1em;
 }
+
+#flag {
+    grid-row: 1;
+    grid-column: 4;
+}
