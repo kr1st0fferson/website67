@@ -174,8 +174,10 @@ nav :hover {
 }
 
 .blinkies {
+    display: flex;
+    flex-direction: column;
     grid-column: 4;
-    grid-row: 5/7;
+    grid-row: 5/10;
     position: relative;
     left: 7em;
 }
