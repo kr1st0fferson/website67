@@ -92,20 +92,25 @@ nav :hover {
     grid-row: 6;
 }
 
-#advtime {
+.shows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 3/5;
+}
+
+/* #advtime {
+    position: sticky;
     grid-column: 1;
     grid-row: 3;
-    justify-self: center;
-    z-index: 10;
+    margin-left: 7em;
 }
 
 #mlp {
     grid-column: 1;
     grid-row: 3/5;
     align-self: center;
-    justify-self: right;
-    position: relative;
-    z-index: 11;
 }
 
 #notokay {
@@ -124,7 +129,7 @@ nav :hover {
 }
 
 #bcs {
-    grid-column: 2/3;
+    grid-column: 5;
     grid-row: 3/5;
     align-self: center;
     z-index: 14;
@@ -141,7 +146,7 @@ nav :hover {
    right: -0.5em;
    z-index: 15;
 }
-
+ */
 #jesse {
     grid-row: 2/4;
     align-self: center;
@@ -154,6 +159,7 @@ nav :hover {
     grid-row: 5/6;
     margin-top: -3em;
     z-index: 11;
+    margin-left: 2em;
 }
 
 #neocities {
