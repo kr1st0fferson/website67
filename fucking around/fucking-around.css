@@ -278,3 +278,15 @@ a {
     grid-row: 1;
     grid-column: 4;
 }
+
+.button2 {
+    grid-column: 1;
+    grid-row: 9;
+    justify-self: center;
+    align-self: center;
+    font-size: 20px;
+}
+
+.button2 :hover {
+    color: red;
+}
