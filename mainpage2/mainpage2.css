@@ -1,6 +1,7 @@
 body {
+    min-height: max-content;
     font-family: handwriting;
-    background-color: rgb(30, 12, 0);
+    background-color: rgb(30, 9, 0);
     background-image: url(assets/gray-floral.png);
     color: rgb(255, 236, 221);
 }
@@ -25,12 +26,6 @@ body {
     justify-content: center;
 }
 
-.heading {
-    font-family: kristoffersons_font;
-    font-size: 1.5em;
-    text-align: center;
-}
-
 nav :hover{
     font-style: italic;
     color: rgb(170, 216, 249);
@@ -41,7 +36,7 @@ nav :hover{
 }
 
 nav {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 a {
@@ -49,12 +44,15 @@ a {
     text-decoration: none;
 }
 
-.menu_child { 
+.menu {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.intro {
-    font-size: 2em;
+.menu_child { 
+    width: 65%;
+    background-color: rgb(134, 106, 86);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
