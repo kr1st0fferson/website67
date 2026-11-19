@@ -5,6 +5,11 @@ body {
     color: rgb(255, 236, 221);
 }
 
+::selection {
+    color: rgb(60, 41, 33);
+    background-color: rgb(133, 100, 89);
+}
+
 @font-face {
     font-family: kristoffersons_font;
     src: url(/Users/ziggystardust/workspace/website/Updatedkristoffersonsfont-Regular.ttf);
