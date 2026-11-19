@@ -20,15 +20,24 @@ body {
     src: url(/Users/ziggystardust/workspace/website/handwriting.ttf);
 }
 
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
 .heading {
     font-family: kristoffersons_font;
     font-size: 1.5em;
-    
+    text-align: center;
 }
 
 nav :hover{
     font-style: italic;
-    color: red;
+    color: rgb(170, 216, 249);
+}
+
+#star {
+    font-size: 15px;
 }
 
 nav {
@@ -40,12 +49,10 @@ a {
     text-decoration: none;
 }
 
-.menu { 
-    border-color: rgb(217, 200, 246);
-    text-align: center;
-    width: 200px;
-    border-style: solid;
-    border-width: 1px;
+.menu_child { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .intro {
