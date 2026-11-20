@@ -1,6 +1,6 @@
 body {
     font-family: handwriting;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(43, 35, 101);
     color: rgb(255, 236, 221);
 }
 
@@ -35,4 +35,11 @@ body {
 a {
     color: rgb(255, 236, 221);
     text-decoration: none;
+}
+
+.blinkies{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 20px;
 }
