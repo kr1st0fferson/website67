@@ -1,8 +1,6 @@
 body {
-    min-height: max-content;
     font-family: handwriting;
-    background-color: rgb(30, 9, 0);
-    background-image: url(assets/gray-floral.png);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 236, 221);
 }
 
