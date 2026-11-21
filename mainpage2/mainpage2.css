@@ -3,7 +3,13 @@ body {
     background-image: url(assets/gray-floral.png);
     background-color: rgb(34, 21, 16);
     color: rgb(241, 215, 255);
+    font-size: 1.8em;
     -webkit-text-stroke: 1px rgb(142, 11, 142);
+}
+
+nav :hover {
+    font-style: italic;
+    color: rgb(165, 202, 255);
 }
 
 ::selection {
@@ -52,7 +58,7 @@ body {
 
 
 a {
-    color: rgb(255, 236, 221);
+    color: rgb(241, 215, 255);
     text-decoration: none;
 }
 
@@ -63,7 +69,6 @@ a {
 }
 
 .box {
-    font-size: 1.8em;
     background-color: rgba(14, 1, 21, 0.484);
     width: 30%;
     padding: 5px;
@@ -72,7 +77,5 @@ a {
     border-style: dashed;
     border-width: 1px;
     text-align: center;
-
-    
 }
 
