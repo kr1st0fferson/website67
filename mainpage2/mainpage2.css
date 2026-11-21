@@ -12,6 +12,12 @@ nav :hover {
     color: rgb(165, 202, 255);
 }
 
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
 ::selection {
     color: rgb(60, 41, 33);
     background-color: rgb(133, 100, 89);
