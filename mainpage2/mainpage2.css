@@ -1,7 +1,7 @@
 body {
     font-family: handwriting;
     background-image: url(assets/gray-floral.png);
-    background-color: rgb(74, 60, 81);
+    background-color: rgb(45, 30, 24);
     color: rgb(255, 236, 221);
 }
 
@@ -22,25 +22,26 @@ body {
 
 #title {
     font-family: kristoffersons_font;
-    color: rgb(255, 216, 255);
+    color: rgb(244, 196, 248);
     grid-row: 2;
-    grid-column: 3/5;
+    grid-column: 2;
     z-index: 2;
-    align-self: end;
-
+    
+    -webkit-text-stroke: 1px rgb(90, 10, 103);
  
     font-size: 2.5rem;
 }
 
 #banner {
     grid-column: 1/5;
+    grid-row: 1/2;
     justify-self: center;
 }
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 100px 100px;
 }
 
 .buttons {
