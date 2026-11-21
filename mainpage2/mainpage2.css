@@ -40,7 +40,12 @@ a {
 
 .blinkies{
     display: flex;
-    flex-direction: column;
-    width: 150px;
-    height: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.photo {
+    margin-right: 5em;
+    display: flex;
+    justify-content: flex-end;
 }
