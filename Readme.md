@@ -30,7 +30,7 @@ most of the pages are still wip!!
 
 
 ## how the main page looks like:
-<img src="readme images/main.png" alt="main page"> 
+<img src="readme images/main2page.png" alt="main page"> 
 
 
 
