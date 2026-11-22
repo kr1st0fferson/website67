@@ -35,7 +35,7 @@ most of the pages are still wip!!
 
 
 ## how page 2 currently looks like: 
-<img src="readme images/2.png" alt="page 2 of my website"> 
+<img src="readme images/aboutme.png" alt="page 2 of my website"> 
 
 
 
