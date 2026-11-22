@@ -64,26 +64,39 @@ nav :hover {
 .links {
     display: flex;
     flex-direction: column;
+
+    width: 40%;
     padding: 10px;
-    border-radius: 10px;
+
     border-style: dashed;
     border-width: 1px;
-    text-align: center;
     background-color: rgba(14, 1, 21, 0.484);
+
+    text-align: center;
+
+    position: relative;
+    left: 6rem;
 }
+
 
 .box {
     background-color: rgba(14, 1, 21, 0.484);
-    padding: 5px;
-    border-radius: 10px;
     border-style: dashed;
     border-width: 1px;
+
+    padding: 5px;
     text-align: center;
+}
+
+.shadow{
+    position: relative;
+    right: 5rem;
 }
 
 .flexbox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    gap: 1rem;
+    grid-template-rows: 200px 200px;
+    justify-items: center;
+    align-items: center;
 }
