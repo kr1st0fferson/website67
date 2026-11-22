@@ -76,6 +76,9 @@ nav :hover {
 
     position: relative;
     left: 6rem;
+
+    grid-column: 1;
+    grid-row: 1;
 }
 
 
@@ -99,4 +102,14 @@ nav :hover {
     grid-template-rows: 200px 200px;
     justify-items: center;
     align-items: center;
+}
+
+.chaos {
+    grid-column: 1;
+    grid-row: 2/3;
+    justify-self: right;
+    align-self: center;
+
+    margin-top: -4rem;
+
 }
