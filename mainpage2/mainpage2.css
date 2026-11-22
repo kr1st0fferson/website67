@@ -74,11 +74,9 @@ nav :hover {
 
     text-align: center;
 
-    position: relative;
-    left: 6rem;
-
     grid-column: 1;
     grid-row: 1;
+    justify-self: right;
 }
 
 
@@ -92,15 +90,15 @@ nav :hover {
 }
 
 .shadow{
-    position: relative;
-    right: 5rem;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: left;
 }
 
 .flexbox {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px 200px;
-    justify-items: center;
     align-items: center;
 }
 
@@ -108,8 +106,5 @@ nav :hover {
     grid-column: 1;
     grid-row: 2/3;
     justify-self: right;
-    align-self: center;
-
     margin-top: -4rem;
-
 }
