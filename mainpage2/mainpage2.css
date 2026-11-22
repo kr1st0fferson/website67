@@ -7,17 +7,6 @@ body {
     -webkit-text-stroke: 1px rgb(142, 11, 142);
 }
 
-nav :hover {
-    font-style: italic;
-    color: rgb(165, 202, 255);
-}
-
-.links {
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-}
-
 ::selection {
     color: rgb(60, 41, 33);
     background-color: rgb(133, 100, 89);
@@ -31,6 +20,12 @@ nav :hover {
 @font-face {
     font-family: handwriting;   
     src: url(/Users/ziggystardust/workspace/website/handwriting.ttf);
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 100px 100px;
 }
 
 #title {
@@ -49,17 +44,10 @@ nav :hover {
     justify-self: center;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 100px 100px;
-}
-
-.buttons {
+.blinkies{
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin-top: 5px;
+    flex-direction: row;
 }
 
 
@@ -68,17 +56,27 @@ a {
     text-decoration: none;
 }
 
-.blinkies{
+nav :hover {
+    font-style: italic;
+    color: rgb(165, 202, 255);
+}
+
+.links {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    width: 10%;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    background-color: rgba(14, 1, 21, 0.484);
 }
 
 .box {
     background-color: rgba(14, 1, 21, 0.484);
     width: 30%;
     padding: 5px;
-    border-collapse: collapse;
     border-radius: 10px;
     border-style: dashed;
     border-width: 1px;
