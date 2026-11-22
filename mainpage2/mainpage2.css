@@ -8,8 +8,8 @@ body {
 }
 
 ::selection {
-    color: rgb(60, 41, 33);
-    background-color: rgb(133, 100, 89);
+    color: rgb(251, 155, 251);
+    background-color: rgb(125, 87, 175);
 }
 
 @font-face {
@@ -64,8 +64,7 @@ nav :hover {
 .links {
     display: flex;
     flex-direction: column;
-    width: 10%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     border-style: dashed;
     border-width: 1px;
@@ -75,7 +74,6 @@ nav :hover {
 
 .box {
     background-color: rgba(14, 1, 21, 0.484);
-    width: 30%;
     padding: 5px;
     border-radius: 10px;
     border-style: dashed;
@@ -83,3 +81,9 @@ nav :hover {
     text-align: center;
 }
 
+.flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 1rem;
+}
